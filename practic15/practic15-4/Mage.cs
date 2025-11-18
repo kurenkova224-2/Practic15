@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace practic15_4
+{
+  public  class Mage : IAttack, IHeal
+    {
+        public void Attack()
+        {
+            Console.WriteLine("Маг наносит магический удар!");
+        }
+
+        public void Heal()
+        {
+            Console.WriteLine("Маг лечит союзника!");
+        }
+    }
+}
